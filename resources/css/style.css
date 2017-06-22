@@ -107,7 +107,7 @@ body{
 .two{
     width: 100%;
     height:100%;
-    background-color: #00A9A5;
+    background-color: #657C87;
     position: relative;
     top: 5rem;
     display:flex;
@@ -165,21 +165,47 @@ body{
   justify-content: flex-start;
   align-items: center;
 }
+.two .asidetwo .panel:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #00A9A5;
+}
 .two .asidetwo .panel{
   display:flex;
+  width:100%;
   height: 33%;
   border: 1px solid white;
 }
 .two .asidetwo .panel img{
   width:12rem;
   height:12rem;
-  padding: 1rem;
+  padding: .5rem;
 }
 .two .asidetwo .panel .textpanel{
   display:flex;
-  flex-basis:70%;
+  flex-basis:60%;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  align-content: space-between;
   border: 1px solid purple;
+}
+.two .asidetwo .panel .textpanel h1{
+  font-family:Source Sans Pro;
+  font-size: 2rem;
+  color:white;
+}
+.two .asidetwo .panel .textpanel p{
+  font-family:Source Sans Pro;
+  font-size: 1.25rem;
+  color:white;
+  margin-top:1rem;
+}
+.two .asidetwo .panel .textpanel a{
+  font-family:Source Sans Pro;
+  font-size: 1.25rem;
+  color:white;
+  text-decoration: underline;
+}
+.two .asidetwo .panel .textpanel a:hover{
+  transition: color 200ms ease .01s;
+  color:black
 }
